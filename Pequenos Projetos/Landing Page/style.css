@@ -1,0 +1,155 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Nunito+Sans:opsz,wght@6..12,300;6..12,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: lighter;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+    position: relative;
+    
+    
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(87, 78, 184);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#titulo {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+
+#btn-contact {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 11px 1px rgba(23, 15, 107, 0.354);
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 250px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 25px;
+}
+
+p {
+    text-align: justify;
+    max-width: 500px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 300;
+}
+
+#botao {
+    background-color: #574eb8;
+    max-width: 22%;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 11px 1px rgba(23, 15, 107, 0.354);
+
+
+}
+
+#botao > a{
+    color: white;
+}
+
+article {
+    margin-left: 280px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 11px 1px rgba(15, 10, 66, 0.148);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 35px auto;
+    margin-top: 0px;
+
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+    
+}
+
+form [type="submit"] {
+    height: 45px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: #574eb8;
+    color: #e2e2e2;
+    box-shadow: 3px 3px 11px 1px rgba(23, 15, 107, 0.438);
+    
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;  
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.176);
+    border-radius: 10px;
+    box-shadow: 3px 3px 13px 0px #25205e85;
+}
+h3 {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 30px 0px 20px 40px;
+}

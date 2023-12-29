@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplor de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* O parágrafo pertence à div (está dentro) / Protótipo de exercício para a construção de um menu*/ 
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: azure;
+            background-color: blue;
+            width: 210px;
+        }
+
+        div:hover {
+            color: rgb(226, 43, 43);
+        } 
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO <ESCONDIDO class=""></ESCONDIDO></p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>

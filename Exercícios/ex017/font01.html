@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Work+Sans&display=swap');
+        body {
+            font-family: 'Work Sans', Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in (polegadas), px (pixel), pt (ponto), pc (paica)
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* Pesos da fonte: lighter normal bold bolder*/
+        }
+
+        h1 {
+            
+            /*Shorthand font
+
+             font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            - font-style -> font-weight -> font-size -> font-family */
+
+            font: italic bolder 3em 'Work Sans', sans-serif; /* Shorthand*/
+            
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illum, perspiciatis, accusamus nihil consequatur fuga laboriosam saepe praesentium commodi doloremque reprehenderit suscipit, ad aut eveniet veritatis? Suscipit nesciunt at quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur eos numquam nisi itaque reprehenderit eum sed rerum reiciendis, hic nihil assumenda, tempora vitae debitis id libero exercitationem cumque harum?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam voluptatum fugiat deserunt porro animi voluptates vero doloribus minima quos quia accusantium, est beatae in non assumenda fugit dolore.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus illo porro itaque unde sint deleniti sed vel tempora quaerat ipsa mollitia libero corporis delectus, fugit consectetur! Quae impedit alias nemo!</p>
+</body>
+</html>

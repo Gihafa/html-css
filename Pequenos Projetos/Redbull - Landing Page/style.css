@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root {
+    --preto: #000000;
+    --azul: #1A2774;
+    --amarelo: #FFCA2A;
+    --rosa: #D81E3D;
+    --azulescuro: #00162B;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+#titulo {
+    flex-direction: column;
+    line-height: 10px;
+    color: #1A2774;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+   
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--azul);
+
+}
+
+a:hover {
+    color: #FFCA2A;
+    transition: 0.3s all;
+
+}
+
+#btn-especial {
+    border: 2px solid #341ed8;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+#btn-especial:hover {
+    background-color: #341ed8;
+    
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    color: #1A2774;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 40px;
+    font-family: 'Poppins';
+    
+    
+
+}
+
+span {
+    color: #D81E3D;
+}
+
+p {
+   text-align: justify; 
+   max-width: 500px;
+}
+
+img {
+    width: 700px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background: #ffca2ac5;
+    border: none;
+    color:  #1A2774;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+
+}
+
+input {
+   margin-top: 20px;
+   height: 20px;
+   padding: 15px;
+   border-radius: 20px;
+   border: solid;
+   border-color: #1A2774;
+
+
+}
+
+footer {
+    font-weight: bold;
+}

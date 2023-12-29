@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Nunito&family=Oswald:wght@300&display=swap');  
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            
+            background-color: rgba(67, 67, 67, 0.726);
+            color: beige;
+        
+        }
+
+        header {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            background-color: white;
+            
+
+        }
+
+        h1#especial {
+            color: rgb(0, 0, 0);
+            
+        }
+
+        nav {
+            background-color: rgba(128, 128, 128, 0.393);
+            margin-right: 450px;
+            padding: 8px;
+            border-radius: 5px;   
+            box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.484);
+            
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bold;
+            color: black;
+    
+        }
+
+        nav > a:hover {
+            color: blue;
+            
+        }
+        
+
+        main {
+            background-color: whitesmoke;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.409);
+        }
+
+        article {
+            background-color: rgba(128, 128, 128, 0.393);
+            padding: 5px;
+            border-radius: 5px;
+         
+        }
+
+        article > aside {
+            background-color: rgba(128, 128, 128, 0.648);
+            border-radius: 5px;
+            padding-left: 5px;
+            margin-right: 450px;
+            color: rgb(227, 223, 223);
+        }
+
+        
+        footer {
+            margin: 12px;
+            background-color: black;
+            text-align: center;
+            padding: 4px;
+            border-radius: 10px;
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        main > section#assuntos {
+            padding-left: 3px;
+            text-decoration: underline;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="especial">Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda sapiente delectus itaque dignissimos, doloremque repudiandae ipsum similique pariatur. Quo ea sed deserunt voluptates dicta, qui quidem porro exercitationem! Illum?</p>
+                <aside>
+                    <p>Artigo escrito por José da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Giovana</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

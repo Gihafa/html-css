@@ -1,0 +1,45 @@
+@media screen and (max-width: 760px) {
+    header {
+        flex-direction: column;
+    }
+
+    h3 {
+        padding: 20px 40px 20px 40px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+   h2 {
+    font-size: 50px;
+   }
+
+   form {
+    margin: 20px auto;
+    width: 100%;
+   }
+
+   input {
+    align-self: center;
+    width: 50%;
+   }
+
+   ul {
+    text-align: center;
+   }
+
+   #botao {
+    width: 16%;
+   }
+
+   article {
+    margin: 40px 200px;
+    width: 350px;
+    
+} 
+
+   aside {
+    margin: auto;
+   }
+}
