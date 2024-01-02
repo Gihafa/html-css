@@ -33,14 +33,6 @@ header a {
 
 }
 
-header a:hover {
-    background-color: #ddc0ff80;
-    padding: 5px;
-    border-radius: 5px;
-
-}
-
-
 #titulo {
     color: #430098;
     text-transform: uppercase;
