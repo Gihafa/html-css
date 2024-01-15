@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="hamburguer" class='bx bx-menu' onclick="clickMenu()"></i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Páginas</a></li>
+                <li><a href="#">Serviço</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatibus ratione esse eos quae distinctio at cupiditate, beatae totam, natus id excepturi magni quas asperiores! Quas consequatur facilis beatae dignissimos.</p>
+            
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste omnis a, placeat recusandae odio quidem perspiciatis impedit. Nihil pariatur distinctio obcaecati ab explicabo nam unde quia porro illum id.</p>
+            
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ipsam vero delectus quia, ducimus hic qui praesentium aut optio, totam recusandae magni, autem modi saepe animi officiis tempore? Similique, voluptatibus Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repudiandae magnam recusandae laboriosam nulla quasi ratione iusto placeat praesentium natus iste quisquam provident accusamus, a non quibusdam eligendi vitae inventore?.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+                    
+        }
+    </script>
+</body>
+</html>
